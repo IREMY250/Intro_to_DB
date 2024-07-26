@@ -15,7 +15,7 @@ CREATE TABLE Books (
 CREATE TABLE Customers (
     customer_id INT (PRIMARY KEY),
      customer_name VARCHAR(215) NOT NULL,
-     email VARCHAR (215) NOT NULL,
+     email VARCHAR(215) NOT NULL,
      address TEXT
      );
 CREATE TABLE Orders (
