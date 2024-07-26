@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+USE alx_book_store;
 CREATE TABLE Books (book_id (Primary Key), title VARCHAR(130),author_id,price DOUBLE,publication_date DATE);
 CREATE TABLE Authors (author_id(primary key),author_name VARCHAR(215));
 CREATE TABLE Customers (customer_id(primary key),customer_name VARCHAR(215),email VARCHAR (215),address TEXT);
